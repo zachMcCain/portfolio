@@ -1,0 +1,26 @@
+body {
+  background-color: aquamarine;
+  margin: 0;
+}
+
+.header {
+  height: 50px;
+  padding: 10px;
+  background-color: palegoldenrod;
+}
+
+.about {
+  height: 100px;
+}
+
+.projects {
+  height: 100px;
+}
+
+.contact {
+  height: 100px;
+}
+
+.footer {
+  background-color: palegoldenrod;
+}
