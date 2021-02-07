@@ -9,16 +9,31 @@ import Footer from './components/Footer.jsx';
 class App extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {}
+    this.state = {
+      projects: false,
+      contact: false
+    }
+  }
+
+  handleClick (e) {
+    e.persist();
+    console.log(e.target.value);
+    // this.setState({e.target.innerHTML: })
   }
 
   render () {
+    let contact = this.state.contact ? <Contact /> : null;
+    let projects = this.state.projects ? <Projects /> : null;
     return (
       <div>
         <Header/>
         <About/>
-        <Projects/>
-        <Contact/>
+        <span onClick={this.handleClick} value="projects">Projects</span>
+        {projects}
+        <span>Contact</span>
+        {contact}
+        {/* <Projects/> */}
+        {/* <Contact/> */}
         <Footer/>
       </div>
     )

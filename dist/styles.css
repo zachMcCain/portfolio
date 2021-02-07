@@ -1,26 +1,57 @@
 body {
-  background-color: aquamarine;
+  background-color: #35524A;
   margin: 0;
+  color: #B2BDBD;
 }
 
 .header {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
   height: 50px;
   padding: 10px;
-  background-color: palegoldenrod;
+  background-color: #B2BDBD;
+  align-items: right;
+  /* border: solid red; */
+  color: #35524A;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  font-weight: 700;
+  /* border-color: red; */
+}
+
+.center {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.gitHub {
+  height: 20px;
 }
 
 .about {
   height: 100px;
+  /* border: solid red; */
 }
 
 .projects {
-  height: 100px;
+  height: auto;
+  /* border: solid red; */
 }
 
 .contact {
   height: 100px;
+  /* border: solid red; */
 }
 
 .footer {
-  background-color: palegoldenrod;
+  background-color: #B2BDBD;
+  color: #35524A;
+  /* border: solid red; */
 }
+
+
+
+
+/*
+font-family: 'Roboto Mono', monospace;
+font-family: 'Roboto Slab', serif; */

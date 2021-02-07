@@ -2,7 +2,10 @@ import React from 'react';
 
 const Header = (props) => {
   return (
-    <div className="header">Zach McCain, Full-Stack Engineer</div>
+    <div className="header">
+      <span className='center'>Zach McCain, Full-Stack Engineer</span>
+      <span className='center'><a href="https://github.com/zachMcCain"><img className='gitHub' src='../dist/assets/25231.png'/></a></span>
+    </div>
   )
 }
 
