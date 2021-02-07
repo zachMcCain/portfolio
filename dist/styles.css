@@ -10,7 +10,6 @@ body {
   height: 50px;
   padding: 10px;
   background-color: #B2BDBD;
-  align-items: right;
   /* border: solid red; */
   color: #35524A;
   font-family: 'Roboto Mono', monospace;
@@ -26,6 +25,11 @@ body {
 
 .gitHub {
   height: 20px;
+}
+
+.collapseContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .about {
@@ -46,6 +50,9 @@ body {
 .footer {
   background-color: #B2BDBD;
   color: #35524A;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  font-weight: 700;
   /* border: solid red; */
 }
 
