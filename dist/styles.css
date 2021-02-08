@@ -18,6 +18,24 @@ body {
   /* border-color: red; */
 }
 
+/* .about-transition-enter {
+  opacity: 0;
+}
+
+.about-transition-enter-active {
+  opacity: 1;
+  transition: opacity 200ms;
+}
+
+.about-transition-exit {
+  opacity: 1;
+}
+
+.about-transition-exit-active {
+  opacity: 0;
+  transition: opacity 200ms;
+} */
+
 .center {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -35,6 +53,7 @@ body {
 .about {
   height: 100px;
   /* border: solid red; */
+
 }
 
 .projects {
@@ -44,6 +63,7 @@ body {
 
 .contact {
   height: 100px;
+  transition: ease-in 2s;
   /* border: solid red; */
 }
 
