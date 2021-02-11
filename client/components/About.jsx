@@ -26,11 +26,14 @@ const About = () => {
       </div>
       <Transition in={inProp} timeout={duration}>
         {state => (
-          <div onClick={() => setInProp(false)} style={{
+          <div  style={{
             ...defaultStyle,
             ...transitionStyles[state]
           }}>
             I'm a fade Transition!
+            <div onClick={() => setInProp(false)}>
+              Close
+            </div>
           </div>
         )}
       </Transition>
