@@ -26,7 +26,7 @@ const About = () => {
       </div>
       <Transition in={inProp} timeout={duration}>
         {state => (
-          <div  style={{
+          <div onClick={() => setInProp(false)} style={{
             ...defaultStyle,
             ...transitionStyles[state]
           }}>
