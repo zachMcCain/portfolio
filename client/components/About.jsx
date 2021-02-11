@@ -21,7 +21,7 @@ const About = () => {
     <div>
       <div className="about" onClick={() => setInProp(true)}>
         <div>
-          About Info Goes Here
+          About
         </div>
       </div>
       <Transition in={inProp} timeout={duration}>
@@ -30,7 +30,7 @@ const About = () => {
             ...defaultStyle,
             ...transitionStyles[state]
           }}>
-            I'm a fade Transition!
+            <img src="./assets/IMG_9001.jpg" style={{width: '300px', border: 'solid gray 4px', borderRadius: '10px'}}/>
             <div onClick={() => setInProp(false)}>
               Close
             </div>
